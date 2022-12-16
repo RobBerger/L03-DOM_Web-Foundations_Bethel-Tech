@@ -18,3 +18,13 @@ console.log(demoTag);
 for (i = 0; i < demoTag.length; i++) {
     demoTag[i].style.border = 'blue dashed';
 }
+
+//querySelector
+const demoQuery = document.querySelector('.querySel');
+demoQuery.style.background = "pink";
+
+//querySelectorAll
+const demoQueryAll = document.querySelectorAll('.demo-query-all');
+for (i = 0; i < demoQueryAll.length; i++) {
+    demoQueryAll[i].style.border = '4px solid purple';
+}
